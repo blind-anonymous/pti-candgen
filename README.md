@@ -22,7 +22,7 @@ respectively. zero setting is enabled by setting *alpha=-1* or *mu=-1*. Followin
 
 # Running WikiPriors
 
-To run WikiPriors simple execute
+To run WikiPriors simply execute
 
 > python WikiPriors/main.py *args*.
 
