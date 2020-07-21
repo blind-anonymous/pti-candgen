@@ -26,7 +26,7 @@ To run WikiPriors simply execute
 
 > python WikiPriors/main.py *args*.
 
-where thhe arguments *args* are listed below:
+where the arguments *args* are listed below:
 
 - --*tlang*: target language.
 - --*plang*: pivot language.
