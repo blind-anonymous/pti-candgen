@@ -18,7 +18,7 @@ and
 
 > python CHARAGRAM/main.py *mu* *amount_training_data* *target_lang* *pivot_lang*
 
-respectively. zero setting is enabled by setting *alpha=-1* or *mu=-1*. Following guidelines by the authors of Charagram, *amount_training_data* is set to 80,000 for the main experiments contained in the paper. Both the pivot and target language are represented with the two or three character code indicated in the submission.
+respectively. Zero-shot setting is enabled by setting *alpha=-1* or *mu=-1*. Following guidelines by the authors of Charagram, *amount_training_data* is set to 80,000 for the main experiments contained in the paper. Both the pivot and target language are represented with the two or three character code indicated in the submission.
 
 # Running WikiPriors
 
