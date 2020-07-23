@@ -18,11 +18,11 @@ Activate the installed environment `conda activate pti`
 
 PTI and Charagram can be run by simply executing 
 
-`python PTI/main.py *alpha* *lambda* *target_lang* *pivot_lang*`
+`python PTI/main.py alpha lambda target_lang pivot_lang`
 
 and
 
-`python CHARAGRAM/main.py *mu* *amount_training_data* *target_lang* *pivot_lang*`
+`python CHARAGRAM/main.py mu amount_training_data target_lang pivot_lang`
 
 respectively. Zero-shot setting is enabled by setting `alpha=-1` or `mu=-1`. Following guidelines by the authors of Charagram, `amount_training_data` is set to 80,000 for the main experiments contained in the paper. Both the pivot and target language are represented with the two or three character code indicated in the submission.
 
@@ -30,11 +30,11 @@ respectively. Zero-shot setting is enabled by setting `alpha=-1` or `mu=-1`. Fol
 
 To run WikiPriors simply execute
 
-`python WikiPriors/main.py *args*`.
+`python WikiPriors/main.py args`.
 
 where the arguments `args` are listed below:
 
-- --*tlang*: target language.
-- --*plang*: pivot language.
-- --*ncands*: number of retrieved candidate entities. The default value is 30.
-- --*zeroshot*: boolean to indicate whether the learning setting is zero-shot or not.
+- --tlang: target language.
+- --plang: pivot language.
+- --ncands: number of retrieved candidate entities. The default value is 30.
+- --zeroshot: boolean to indicate whether the learning setting is zero-shot or not.
